@@ -1,0 +1,702 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.csk-icon
+{
+    width: 100px;
+    height: 100px;
+    margin: -35px 0 -30px 0;
+}
+.csk-icon-2
+{
+    display: none;
+}
+header
+{
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #FFCB05;
+    padding: -30px 0;
+}
+.login-button
+{
+    background-color: #0066B3;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+}
+.login-button a
+{
+    text-decoration: none;
+    color: #FFCB05;
+}
+.navlist
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.navlist i
+{
+    display: none;
+}
+.navlist a
+{
+    text-decoration: none;
+    color: #0066B3;
+}
+.more
+{
+    display: none;
+}
+.navlist li:nth-child(9):hover .more
+{
+    position: absolute;
+    display: block;
+    flex-direction: column;
+    margin-top: 22px;
+    padding: 35px 15px 15px 15px;
+    line-height: 2;
+    text-align: center;
+    background-color: white;
+}
+/* ------------------------------------------------- */
+.sec-1
+.cks-cup-pic
+{
+    position: absolute;
+    padding: 0 37%;
+}
+.cks-cup-pic img
+{
+    width: 245px;
+}
+.csk-pic-1 img
+{
+    width:100%;
+    height: 350px;
+}
+/* ---------------------------------------------- */
+.mid-sec-1
+{
+    width: 25%;
+    border: 1px solid darkgray;
+    margin: 50px 100px 200px 40px;
+    font-weight: 500;
+    line-height: 3;
+    border-radius: 15px;
+    padding-bottom: 50px;
+}
+.select
+{
+    color: aliceblue;
+}
+.mid-sec .select-2
+{
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 650;
+}
+.select-2 i
+{
+    display: none;
+}
+
+.mid-nav a
+{
+    text-decoration: none;
+    color: black;
+}
+.mid-nav a:hover
+{
+    text-decoration: none;
+    color: red;
+}
+
+.apparels
+{
+    display: none;
+}
+.mid-nav li:nth-child(4):hover .apparels
+{
+    display: block;
+    margin-left: 1px;
+}
+.cricket
+{
+    display: none;
+}
+.mid-nav li:nth-child(5):hover .cricket
+{
+    display: block;
+    margin-left: 1px;
+}
+.fitness
+{
+    display: none;
+}
+.mid-nav li:nth-child(6):hover .fitness
+{
+    display: block;
+    margin-left: 1px;
+}
+.home
+{
+    display: none;
+}
+.mid-nav li:nth-child(7):hover .home
+{
+    display: block;
+    margin-left: 1px;
+}
+.bag
+{
+    display: none;
+}
+.mid-nav li:nth-child(8):hover .bag
+{
+    display: block;
+    margin-left: 1px;
+}
+
+.mid-sec-2
+{
+    width: 75%;
+    margin-top: 40px;
+}
+
+.sec-2
+{
+    display: flex;
+}
+.col
+{
+    height: 300px;
+    padding-top: 10px;
+    padding-right: -10px;
+}
+.mid-sec-2 p
+{
+    font-size: 20px;
+    font-weight:bold ;
+}
+.col img
+{
+    padding: 10px 0px 0 40px;
+    height: 180px;
+    width: 200px;
+}
+
+.main-footer
+{
+    background-color: #0066B3;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px 0;
+    /* margin-bottom: 60px; */
+}
+.mid-mid-footer-1
+{
+    background-color: white; 
+    color:#0066B3; 
+    border-radius: 50px; 
+    padding:2px 5px;
+}
+.mid-mid-footer-2
+{
+    background-color: white;
+    color:#0066B3;
+    border-radius: 50px; 
+    padding:2px 5px;
+}
+.mid-mid-footer-3
+{
+    background-color: white;
+    color:#0066B3;
+    border-radius: 50px; 
+    padding: 2px 5px;
+}
+.mid-footer-2 p
+{
+    color: white;
+    padding-top: 12px;
+    font-weight:bold;
+}
+.mid-footer-3 a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Tap */
+@media screen and (max-width:900px)
+{
+    .csk-icon
+    {
+        width: 100px;
+        height: 100px;
+        margin: -35px 0 -30px 0;
+    }
+    header
+    {
+        position: fixed;
+        bottom: 0; 
+        z-index: 2;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        background-color:#0066B3;
+        width: 850px;
+        height: 90px;
+    }
+    .login-button
+    {
+        display: none;
+        background-color: #0066B3;
+        padding: 5px 15px;
+        border-radius: 20px;
+        border: none;
+        font-weight: 700;
+    }
+    .login-button a
+    {
+        text-decoration: none;
+        color: #FFCB05;
+    }
+    .navlist
+    {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        gap:100px;
+        padding-right: 25px;
+        margin-left: 10px;
+        font-weight: 700;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .navlist li:nth-child(4)
+    {
+        display: none;
+    }
+    .navlist li:nth-child(5)
+    {
+        display: none;
+    }
+    .navlist li:nth-child(6)
+    {
+        display: none;
+    }
+    .navlist li:nth-child(7)
+    {
+        display: none;
+    }
+    .navlist i
+    {
+        display:inline;
+        display: flex;
+        justify-content: center;
+    }
+    .navlist a
+    {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .more
+    {
+        display: none;
+    }
+    .navlist li:nth-child(9):hover .more
+    {
+        position: absolute;
+        display: block;
+        flex-direction: column;
+        margin-top: 22px;
+        padding: 35px 15px 15px 15px;
+        line-height: 2;
+        text-align: center;
+        background-color: white;
+    }
+    .cks-cup-pic
+    {
+        display: flex;
+        background-color: #0066B3;
+        position: absolute;
+        width: 850px;
+    }
+    .cks-cup-pic .csk-icon-2
+    {
+        display: inline;
+        width: 100px;
+        margin-left: -335px;
+        border-bottom-right-radius: 30px;
+        background-color:#FFCB05;
+    }
+    .cks-cup-pic img
+    {
+        margin-right: 100px;
+        width: 350px;
+        height: 90px;
+        margin-left: 100px;
+    }
+    .csk-pic-1 img
+    {
+        margin-top: 70px;
+        width:850px;
+        height: 250px;
+    }
+
+    .main-footer
+{
+    margin-bottom: 90px;
+    background-color: #0066B3;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+.mid-mid-footer-1
+{
+    background-color: white; 
+    color:#0066B3; 
+    border-radius: 50px; 
+    padding:2px 5px;
+}
+.mid-mid-footer-2
+{
+    background-color: white;
+    color:#0066B3;
+    border-radius: 50px; 
+    padding:2px 5px;
+}
+.mid-mid-footer-3
+{
+    background-color: white;
+    color:#0066B3;
+    border-radius: 50px; 
+    padding: 2px 5px;
+}
+.mid-footer-2 p
+{
+    color: white;
+    padding-top: 12px;
+}
+.mid-footer-3 a
+{
+    text-decoration: none;
+    color: white;
+}
+}
+
+@media screen and (max-width:600px)
+{
+
+    .csk-icon
+{
+    width: 100px;
+    height: 100px;
+    margin: -35px 0 -30px 0;
+}
+header
+{
+    position: fixed;
+    bottom: 0; 
+    z-index: 2;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color:#0066B3;
+    width: 600px;
+    height: 60px;
+}
+.login-button
+{
+    display: none;
+    background-color: #0066B3;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+}
+.login-button a
+{
+    text-decoration: none;
+    color: #FFCB05;
+}
+.navlist
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:80px;
+    padding-right: 25px;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.csk-tv
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.navlist li:nth-child(4)
+{
+    display: none;
+}
+.navlist li:nth-child(5)
+{
+    display: none;
+}
+.navlist li:nth-child(6)
+{
+    display: none;
+}
+.navlist li:nth-child(7)
+{
+    display: none;
+}
+.navlist i
+{
+    display:inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navlist a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.more
+{
+    display: none;
+}
+.navlist li:nth-child(9):hover .more
+{
+    position: absolute;
+    display: block;
+    flex-direction: column;
+    margin-top: 22px;
+    padding: 35px 15px 15px 15px;
+    line-height: 2;
+    text-align: center;
+    background-color: white;
+}
+.cks-cup-pic
+{
+    display: flex;
+    background-color: #0066B3;
+    position: absolute;
+    width: 600px;
+}
+.cks-cup-pic .csk-icon-2
+{
+    display: inline;
+    width: 100px;
+    margin-left: -215px;
+    background-color:#FFCB05;
+}
+.cks-cup-pic img
+{
+    margin-right: 100px;
+    width: 350px;
+    height: 90px;
+    margin-left: -50px;
+}
+.csk-pic-1 img
+{
+    margin-top: 70px;
+    width:600px;
+    height: 250px;
+}
+/* ---------------------------------------------- */
+.mid-sec-1
+{
+    width: 60%;
+    /* height: 30px; */
+    border: 1px solid darkgray;
+    border: none;
+    margin: 50px 100px 200px 120px;
+    font-weight: 500;
+    line-height: 3;
+    border-radius: 15px;
+    padding-bottom: 50px;
+}
+.mid-nav a
+{
+    text-decoration: none;
+    color: black;
+}
+.mid-nav a:hover
+{
+    text-decoration: none;
+    color: red;
+}
+.select-2
+{
+    display: none;
+}
+.select
+{ 
+    color: black;
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 650;
+}
+.select i
+{
+    padding-left: 130px;
+}
+.mid-nav
+{
+    display: none;
+}
+.mid-sec-1 a
+{
+    text-decoration: none;
+    color: black;
+}
+.mid-sec-1:nth-child(1):hover .mid-nav
+{
+    display: block;
+}
+.mid-nav li:hover
+{
+    text-decoration: underline;
+}
+.apparels
+{
+    display: none;
+}
+.mid-nav li:nth-child(3):hover .apparels
+{
+    display: block;
+    margin-left: 1px;
+}
+.cricket
+{
+    display: none;
+}
+.mid-nav li:nth-child(4):hover .cricket
+{
+    display: block;
+    margin-left: 1px;
+}
+.fitness
+{
+    display: none;
+}
+.mid-nav li:nth-child(5):hover .fitness
+{
+    display: block;
+    margin-left: 1px;
+}
+.home
+{
+    display: none;
+}
+.mid-nav li:nth-child(6):hover .home
+{
+    display: block;
+    margin-left: 1px;
+}
+.bag
+{
+    display: none;
+}
+.mid-nav li:nth-child(7):hover .bag
+{
+    display: block;
+    margin-left: 1px;
+}
+
+.mid-sec-2
+{
+    margin-top: -150px;
+    /* display: flex;
+    flex-direction: column; */
+    margin-left: 180px;
+}
+.sec-2
+{
+    display: block;
+    /* flex-direction: column; */
+}
+.col
+{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    padding-right: 10px;
+}
+.col img
+{
+    padding: 10px 0px 0 40px;
+    height: 180px;
+    width: 200px;
+}
+
+.main-footer
+{
+    background-color: #0066B3;
+    display: flex;
+    flex-direction: column;
+    /* justify-content:space-around;
+    align-items: center; */
+    padding: 10px 0 10px 0;
+    margin-bottom: 60px;
+}
+.mid-mid-footer-1
+{
+    background-color: white; 
+    color:#0066B3; 
+    border-radius: 50px; 
+    padding:2px 5px;
+}
+.mid-mid-footer-2
+{
+    background-color: white;
+    color:#0066B3;
+    border-radius: 50px; 
+    padding:2px 5px;
+}
+.mid-mid-footer-3
+{
+    background-color: white;
+    color:#0066B3;
+    border-radius: 50px; 
+    padding: 2px 5px;
+}
+.mid-footer-2 p
+{
+    color: white;
+    padding-top: 12px;
+}
+.mid-footer-3 a
+{
+    text-decoration: none;
+    color: white;
+}
+
+}    
